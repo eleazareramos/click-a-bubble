@@ -1,14 +1,33 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styles/bubble.css'
 
-const Bubble = props =>{
+const Bubble = props => {
+  const [size, setSize] = useState(500)
+  const [ticker, setTicker] = useState(true)
+  const [delay, setDelay] = useState(2000)
 
-    return( 
+  useEffect( () => {
+    setInterval( () => {
+      setTicker(false)
+    }, 750)
+  }, [])
 
-         <div className='bubble'>
-             hello 
-             </div>
-        )
+  useEffect( () => {
+    if(!ticker){
+      setSize(size - 20)
+      setTicker(true)
+    }
+  }, [ticker])
+
+  return (
+    <div
+      style={{ height: size, width: size }}
+      className={'bubble'}
+      onClick={() => {
+        setSize(size + 200)
+      }}
+    />
+  )
 }
 
 export default Bubble
