@@ -93,6 +93,39 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/bubble.js":
+/*!******************************!*\
+  !*** ./components/bubble.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_bubble_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/bubble.css */ "./styles/bubble.css");
+/* harmony import */ var _styles_bubble_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_bubble_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/asigari/Desktop/PROJECTS/click-bubble/click-a-bubble/components/bubble.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const Bubble = props => {
+  return __jsx("div", {
+    className: "bubble",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, "hello");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Bubble);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -106,8 +139,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/global.css */ "./styles/global.css");
 /* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_global_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_bubble__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/bubble */ "./components/bubble.js");
 var _jsxFileName = "/Users/asigari/Desktop/PROJECTS/click-bubble/click-a-bubble/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -116,13 +151,30 @@ const Index = props => {
     className: "main",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: undefined
-  }, "henlo");
+  }, __jsx(_components_bubble__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./styles/bubble.css":
+/*!***************************!*\
+  !*** ./styles/bubble.css ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 

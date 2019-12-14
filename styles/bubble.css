@@ -1,13 +1,3 @@
-.main{
-    background-color: aqua;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 .bubble{
     height: 150px;
     width: 150px;
@@ -18,5 +8,3 @@
     justify-content: center;
     background-color: red;
 }
-
-/*# sourceMappingURL=styles.chunk.css.map*/
