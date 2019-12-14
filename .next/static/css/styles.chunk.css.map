@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./styles/global.css"],"sourcesContent":[".main{\n    background-color: aqua;\n    height: 100vh;\n    width: 100vw;\n}\n\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;;","sourceRoot":""}
