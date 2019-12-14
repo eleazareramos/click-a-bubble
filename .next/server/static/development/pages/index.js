@@ -116,7 +116,7 @@ const Bubble = props => {
     className: "bubble",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: undefined
   }, __jsx("h2", {
@@ -125,7 +125,7 @@ const Bubble = props => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: undefined
   }, " Put the bubble in the div "));

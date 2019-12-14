@@ -23,7 +23,7 @@ var Bubble = function Bubble(props) {
     className: "bubble",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, __jsx("h2", {
@@ -32,7 +32,7 @@ var Bubble = function Bubble(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, " Put the bubble in the div "));
