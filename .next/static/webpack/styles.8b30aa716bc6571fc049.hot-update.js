@@ -1,4 +1,7 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
+webpackHotUpdate("styles",{
+
+/***/ "./styles/bubble.css":
+false,
 
 /***/ "./styles/global.css":
 /*!***************************!*\
@@ -35,7 +38,10 @@
     }
   
 
-/***/ })
+/***/ }),
 
-}]);
-//# sourceMappingURL=styles.js.map
+/***/ 0:
+false
+
+})
+//# sourceMappingURL=styles.8b30aa716bc6571fc049.hot-update.js.map

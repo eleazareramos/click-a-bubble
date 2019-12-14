@@ -1,8 +1,8 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
+webpackHotUpdate("styles",{
 
-/***/ "./styles/global.css":
+/***/ "./styles/bubble.css":
 /*!***************************!*\
-  !*** ./styles/global.css ***!
+  !*** ./styles/bubble.css ***!
   \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1576349461240");
+            injectCss(link, link.href.split("?")[0] + "?unix=1576348589332");
           });
       }
     }
@@ -37,5 +37,5 @@
 
 /***/ })
 
-}]);
-//# sourceMappingURL=styles.js.map
+})
+//# sourceMappingURL=styles.1dc6eb0e7a681eb64fc6.hot-update.js.map
