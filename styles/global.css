@@ -2,4 +2,7 @@
   height: 92vh;
   width: 92vw; 
   padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
